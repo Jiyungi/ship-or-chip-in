@@ -1,0 +1,1 @@
+ALTER TABLE `pacts` ADD `submission_url` text;

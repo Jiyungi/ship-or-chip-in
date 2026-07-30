@@ -1,0 +1,41 @@
+{
+  "version": "7",
+  "dialect": "sqlite",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "6",
+      "when": 1785442003431,
+      "tag": "0000_clumsy_mysterio",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "6",
+      "when": 1785444107821,
+      "tag": "0001_talented_sebastian_shaw",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "6",
+      "when": 1785444809883,
+      "tag": "0002_perfect_fantastic_four",
+      "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "6",
+      "when": 1785446839990,
+      "tag": "0003_neat_lockheed",
+      "breakpoints": true
+    },
+    {
+      "idx": 4,
+      "version": "6",
+      "when": 1785449337933,
+      "tag": "0004_complete_jack_flag",
+      "breakpoints": true
+    }
+  ]
+}
