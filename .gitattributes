@@ -1,4 +1,8 @@
-.projects/ export-ignore
+.projects/state.local.json export-ignore
+.projects/cache/ export-ignore
+.projects/vault/ export-ignore
+.projects/state.test.json export-ignore
+.projects/state.local.test.json export-ignore
 .env* export-ignore
 .env.example -export-ignore
 .agents/ export-ignore

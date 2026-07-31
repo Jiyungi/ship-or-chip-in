@@ -1,0 +1,45 @@
+{
+  "version": 1,
+  "providers": {
+    "auth0": {
+      "name": "Auth0"
+    }
+  },
+  "resources": {
+    "auth": {
+      "name": "auth",
+      "providerName": "Auth0",
+      "serviceId": "client"
+    },
+    "auth0-plan": {
+      "name": "auth0-plan",
+      "providerName": "Auth0",
+      "serviceId": "free"
+    }
+  },
+  "environments": {
+    "default": {
+      "output": ".env",
+      "resources": [
+        {
+          "resourceName": "auth"
+        },
+        {
+          "resourceName": "auth0-plan"
+        }
+      ],
+      "variables": [
+        {
+          "variableName": "auth0-session-secret",
+          "envKey": "AUTH0_SECRET"
+        }
+      ]
+    }
+  },
+  "variables": {
+    "auth0-session-secret": {
+      "name": "auth0-session-secret",
+      "backendId": "fprjvar_61V8OO3TUKW7RpUnX16UhXkc0BSQAUOqv5spb1ACeSSO"
+    }
+  }
+}
