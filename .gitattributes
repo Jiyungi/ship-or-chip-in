@@ -1,4 +1,3 @@
-.projects/state.local.json export-ignore
 .projects/cache/ export-ignore
 .projects/vault/ export-ignore
 .projects/state.test.json export-ignore

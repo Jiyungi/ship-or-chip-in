@@ -1,0 +1,73 @@
+{
+  "version": 1,
+  "project": {
+    "initializedAt": "2026-07-30T20:15:13.037Z",
+    "merchantDisplayName": "jiyun",
+    "merchantId": "acct_1TY9nF0eiHmRuHyV",
+    "projectId": "project_61V8OJcBxd8JTD5fe16UhXkc0BSQAUOqv5spb1ACeGIS",
+    "projectName": "ship-or-chip-in"
+  },
+  "providers": {
+    "auth0": {
+      "accountRequestId": "facctrq_61V8OKiWUIboND21k16UhXkc0BSQAUOqv5spb1ACeEhk",
+      "configuration": {
+        "locality": "us",
+        "naming_prefix": "ship-or-chip-in"
+      },
+      "linkedAt": "2026-07-30T20:16:26.477Z",
+      "providerId": "prvdr_61UVctyxfLOj4FpVw5Bmi",
+      "providerName": "Auth0",
+      "redirectUrl": null,
+      "requestedAt": "2026-07-30T20:16:26.477Z",
+      "status": "complete"
+    }
+  },
+  "resources": {
+    "auth": {
+      "configuration": {
+        "name": "Ship or Chip In",
+        "description": "Team accountability pacts with a communal dinner fund.",
+        "app_type": "regular_web",
+        "callbacks": [
+          "http://localhost:3000/auth/callback",
+          "http://localhost:3001/auth/callback",
+          "https://ship-or-chip-in.jiyun956706.chatgpt.site/auth/callback"
+        ],
+        "allowed_logout_urls": [
+          "http://localhost:3000",
+          "http://localhost:3001",
+          "https://ship-or-chip-in.jiyun956706.chatgpt.site"
+        ],
+        "web_origins": [
+          "http://localhost:3000",
+          "http://localhost:3001",
+          "https://ship-or-chip-in.jiyun956706.chatgpt.site"
+        ]
+      },
+      "createdAt": "2026-07-30T20:16:46.450Z",
+      "lastRevealedAt": "2026-07-30T20:19:00.761Z",
+      "lastStatus": "complete",
+      "name": "auth",
+      "providerId": "prvdr_61UVctyxfLOj4FpVw5Bmi",
+      "providerName": "Auth0",
+      "resourceId": "fres_61V8OL4z8YxNaTRd316UhXkc0BSQAUOqv5spb1ACe7E0",
+      "serviceId": "client"
+    },
+    "auth0-plan": {
+      "configuration": {},
+      "createdAt": "2026-07-30T20:16:30.140Z",
+      "lastRevealedAt": "2026-07-30T20:16:30.404Z",
+      "lastStatus": "complete",
+      "name": "auth0-plan",
+      "providerId": "prvdr_61UVctyxfLOj4FpVw5Bmi",
+      "providerName": "Auth0",
+      "resourceId": "fres_61V8OKpgGeUbzrwDv16UhXkc0BSQAUOqv5spb1ACeKLg",
+      "serviceId": "free"
+    }
+  },
+  "managedProjectVariableEnvKeys": {
+    ".env": [
+      "AUTH0_SECRET"
+    ]
+  }
+}
